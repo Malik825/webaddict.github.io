@@ -1800,7 +1800,7 @@ figure:hover img.img2 {
         }
 .input-group textarea:focus,
 .input-group input:focus{
- border-bottom: 1.4px solid rgb(255 255 255 / 80%);       
+ border-bottom: 1.4px solid #fff !important;       
 }
         
         .input-group textarea {
