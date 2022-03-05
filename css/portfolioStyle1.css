@@ -1798,6 +1798,10 @@ figure:hover img.img2 {
             padding: 1rem 1rem;
             background: transparent;
         }
+.input-group textarea:focus,
+.input-group input:focus{
+ border-bottom: 1.4px solid rgb(255 255 255 / 80%);       
+}
         
         .input-group textarea {
             height: 120px;
