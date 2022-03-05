@@ -75,7 +75,7 @@
         navLinks.forEach(currentLink => {
             currentLink.classList.remove('active');
         })
-        targetedLink.classList.add('active');
+        link.classList.add('active');
     }))
 })();
 (() => {
