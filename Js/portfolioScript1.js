@@ -72,10 +72,9 @@
         navigationBar.classList.remove('active')
     }
     navLinks.forEach((link) => link.addEventListener('click', targetedLink => {
-        navLinks.forEach(currentLink => {
-            currentLink.classList.remove('active');
-        })
-        link.classList.add('active');
+         navigationBar.classList.remove('active')
+   
+        
     }))
 })();
 (() => {
