@@ -1748,7 +1748,7 @@ figure:hover img.img2 {
         
         .contactLabel::before {
             position: absolute;
-            top: calc(60% + 5px);
+            top: calc(55% + 5px);
             left: 50%;
             transform: translateX(-50%) rotate(100deg);
             background: var(--primary);
