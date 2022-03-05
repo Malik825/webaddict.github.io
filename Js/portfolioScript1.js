@@ -50,12 +50,6 @@
     }))
 })();
 
-(() => {
-    window.addEventListener('scroll', (scrolled) => {
-        let header = document.querySelector('header');
-        header.classList.toggle('fixed', scrollY > 150);
-    })
-})();
 
 (() => {
     let hamburgerBtn = document.querySelector('.hamburger');
@@ -76,6 +70,15 @@
    
         
     }))
+})();
+
+(() => {
+    window.addEventListener('scroll', (scrolled) => {
+        let header = document.querySelector('header');
+        header.classList.toggle('fixed', scrollY > 150);
+     navigationBar.classList.remove('active')    
+    })
+    
 })();
 (() => {
     const responsive = {
